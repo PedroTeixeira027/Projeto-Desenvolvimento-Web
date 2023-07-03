@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .main-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+
+header {
+    background-color: silver;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 100px; /* Defina a largura desejada para a sua logo */
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 120px; /* Aumenta a margem direita entre os itens da lista */
+}
+
+header ul li:last-child {
+    margin-right: 0; /* Remove a margem direita do último item da lista */
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px; /* Defina o tamanho de fonte desejado */
+    letter-spacing: 2px; /* Aumenta o espaçamento entre as palavras */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: silver;
+    padding: 10px; /* Reduza o valor do padding para tornar o rodapé mais magro */
+    text-align: right;
+    font-size: 12px; /* Tamanho da fonte menor */
+    color: #555; /* Cor do texto mais claro */
+}
+
+footer p {
+    margin: 5px 0; /* Adiciona espaçamento superior e inferior para o texto de direitos autorais */
+}
+
+.social-icons {
+    text-align: center; /* Centraliza os ícones */
+    margin-top: 2px; /* Aumente ou diminua o valor para posicionar os ícones mais para cima ou para baixo */
+    margin-bottom: 10px; /* Aumenta o espaçamento inferior para posicionar os ícones */
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 20px; /* Espaçamento horizontal entre os ícones */
+}
+
+.social-icons img {
+    width: 30px; /* Defina a largura desejada para os ícones */
+}
