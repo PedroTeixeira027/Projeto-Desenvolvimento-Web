@@ -5,6 +5,7 @@ body {
     margin: 0;
   }
   
+  
   .content {
     flex-grow: 1;
     display: flex;
@@ -28,6 +29,14 @@ body {
   p {
     text-align: center;
   }
+
+  .logo
+  {
+    image-rendering: auto;
+    width: auto;
+    height: auto;
+  }
+
 
 header {
     background-color: silver;
@@ -90,4 +99,15 @@ footer p {
 
 .social-icons img {
     width: 30px; /* Defina a largura desejada para os ícones */
+}
+
+.Forms
+{
+    padding: 20px; 
+    text-align: center;
+}
+
+.TitleProducts
+{
+    text-align: center;
 }
