@@ -6,7 +6,7 @@ body {
   }
   body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #DBE1E0;
     margin: 0;
     padding: 0;
 }
@@ -14,10 +14,10 @@ body {
 .container {
     max-width: 500px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #FCF3A0;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px #BF9E39;
 }
 
 h1 {
@@ -93,7 +93,7 @@ input[type="submit"]:hover {
 
 
 header {
-    background-color: silver;
+    background-color: #32498C;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -101,7 +101,8 @@ header {
 }
 
 header .logo {
-    width: 100px; /* Defina a largura desejada para a sua logo */
+    width: 200px; /* Defina a largura desejada para a sua logo */
+    height: 100px; /* Defina a altura desejada para a sua logo */
 }
 
 header ul {
@@ -129,11 +130,11 @@ header ul li a {
 
 /* Estilos para o rodapé */
 footer {
-    background-color: silver;
+    background-color: #32498C;
     padding: 10px; /* Reduza o valor do padding para tornar o rodapé mais magro */
     text-align: right;
     font-size: 12px; /* Tamanho da fonte menor */
-    color: #555; /* Cor do texto mais claro */
+    color: #DBE1E0; /* Cor do texto mais claro */
 }
 
 footer p {
