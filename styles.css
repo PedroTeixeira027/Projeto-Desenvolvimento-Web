@@ -107,6 +107,9 @@ header {
 }
 
 header .logo {
+    border-style: dashed;
+    border-color: #BF9E39;
+    border-bottom-width: 1px;
     width: 200px; /* Defina a largura desejada para a sua logo */
     height: 100px; /* Defina a altura desejada para a sua logo */
 }
@@ -191,6 +194,6 @@ footer p {
   .owl-carousel .slide img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
     border-radius: 10px;
   }
