@@ -1,62 +1,63 @@
+/* Esses codigos são para o corpo */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin: 0;
-  }
-  body {
     font-family: Arial, sans-serif;
     background-color: #DBE1E0;
     margin: 0;
     padding: 0;
-}
-
-.container {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Esses codigos são para o contato */
+  .container {
     max-width: 500px;
     margin: 50px auto;
     background-color: #FCF3A0;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px #BF9E39;
-}
-
-h1 {
+  }
+  
+  h1 {
     text-align: center;
     margin-bottom: 20px;
-}
-
-label {
+  }
+  
+  label {
     display: block;
     margin-bottom: 10px;
-}
-
-input[type="email"],
-input[type="tel"],
-textarea {
+  }
+  
+  input[type="email"],
+  input[type="tel"],
+  textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 20px;
-}
-
-textarea {
+  }
+  
+  textarea {
     height: 100px;
-}
-
-input[type="submit"] {
+  }
+  
+  input[type="submit"] {
     background-color: #4CAF50;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
-
-input[type="submit"]:hover {
+  }
+  
+  input[type="submit"]:hover {
     background-color: #45a049;
-}
+  } 
   
   .content {
     flex-grow: 1;
@@ -77,6 +78,7 @@ input[type="submit"]:hover {
     max-width: 1000;
   }
   
+  /* Esses codigos são para o cabeçalho */
   h2 {
     text-align: center;
   }
@@ -84,136 +86,134 @@ input[type="submit"]:hover {
   p {
     text-align: center;
   }
-
+  
   .logo
   {
     image-rendering: auto;
     width: auto;
     height: auto;
   }
-
-
-header {
+  
+  header {
     background-color: #32498C;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom-style: solid; /* borda inferior */
-    border-bottom-color: #BF9E39; /* cor da borda inferior*/
-    border-bottom-width: 4px; /* espessura da borda inferior*/
-    font-family: Times New Roman;
-
-}
-
-header .logo {
-
-    width: 200px; /* Defina a largura desejada para a sua logo */
-    height: 100px; /* Defina a altura desejada para a sua logo */
-}
-
-header ul {
+    border-bottom-style: solid;
+    border-bottom-color: #BF9E39;
+    border-bottom-width: 4px;
+  }
+  
+  header .logo {
+    width: 200px;
+    height: 100px;
+  }
+  
+  header ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     text-align: right;
-}
-
-header ul li {
+  }
+  
+  header ul li {
     display: inline-block;
-    margin-right: 120px; /* Aumenta a margem direita entre os itens da lista */
-}
-
-header ul li:last-child {
-    margin-right: 0; /* Remove a margem direita do último item da lista */
-}
-
-header ul li a {
+    margin-right: 60px;
+  }
+  
+  header ul li:last-child {
+    margin-right: 0;
+  }
+  
+  header ul li a {
     text-decoration: none;
-    color: black;
-    font-size: 20px; /* Defina o tamanho de fonte desejado */
-    letter-spacing: 2px; /* Aumenta o espaçamento entre as palavras */
-}
-
-/* Estilos para o rodapé */
-footer {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+  
+  nav {
+    margin-right: 70px;
+  }
+  
+  /* Esses codigos são para o rodapé */
+  footer {
     background-color: #32498C;
-    padding: 10px; /* Reduza o valor do padding para tornar o rodapé mais magro */
+    padding: 10px;
     text-align: right;
-    font-size: 12px; /* Tamanho da fonte menor */
-    color: #DBE1E0; /* Cor do texto mais claro */
-    border-top-style: solid ; /* borda superior */
-    border-top-color: #BF9E39; /* cor da borda superior*/
-    border-top-width: 4px; /* espessura da borda superior */
-}
-
-footer img{
+    font-size: 12px;
+    color: #DBE1E0;
+    border-top-style: solid ;
+    border-top-color: #BF9E39;
+    border-top-width: 4px;
+  }
+  
+  footer img{
     width: 10px;
     height: 25px;
-}
-
-
-footer p {
-    margin: 5px 0; /* Adiciona espaçamento superior e inferior para o texto de direitos autorais */
-}
-
-.social-icons {
-    text-align: center; /* Centraliza os ícones */
-    margin-top: 2px; /* Aumente ou diminua o valor para posicionar os ícones mais para cima ou para baixo */
-    margin-bottom: 10px; /* Aumenta o espaçamento inferior para posicionar os ícones */
-}
-
-.social-icons a {
+  }
+  
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  .social-icons {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
     display: inline-block;
-    margin: 0 20px; /* Espaçamento horizontal entre os ícones */
-}
-
-.social-icons img {
-    width: 30px; /* Defina a largura desejada para os ícones */
-}
-
-.Forms
-{
+    margin: 0 20px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+  }
+  
+  .Forms
+  {
     padding: 20px; 
     text-align: center;
     max-width: 1000;
-}
-.TitleProducts
-{
+  }
+  .TitleProducts
+  {
     text-align: center;
     background-color: #FCF3A0;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px #BF9E39;
     max-width: 1000;
-}
-
-.owl-carousel {
+  }
+  
+  /* Esses codigos são para o carossel */
+  .owl-carousel {
     position: relative;
     width: 100%;
   }
-
+  
   .owl-carousel .slide {
     position: relative;
     height: 300px;
     background-color: #eee;
     border-radius: 10px;
   }
-
+  
   .owl-carousel .slide img {
     width: 100%;
     height: 100%;
     object-fit: scale-down;
     border-radius: 10px;
   }
-
+  
   .PanelaPressao {
     float: left;
     margin-right: 10px;
-
   }
-
-  img{
+  
+  .img-services {
     width: 400px;
     height: 280px;
     border: 1px solid #000000; /* Define a espessura e a cor da borda */
@@ -231,16 +231,14 @@ footer p {
     margin-right: 5%;
     text-align: left;
     clear: both; /* Define que a div "Conteudo" não deve ficar ao lado das floats */
-
   }
-
+  
   .Conteudo {
     clear: both; /* Define que a div "Conteudo" não deve ficar ao lado das floats */
-    position:relative;
+    position: relative;
     top: -230px;
-    
   }
-
+  
   .Cacarola{
     float: right;
     margin-right: 10px;
@@ -248,14 +246,7 @@ footer p {
     top: -120px;
     margin-right: 5%;
   }
-
-  img{
-    width: 400px;
-    height: 280px;
-    border: 1px solid #000000; /* Define a espessura e a cor da borda */
-    border-radius: 3px; /* Define o raio dos cantos da borda (opcional) */
-  }
-
+  
   .TextoCacarola{
     margin-top: 260px;
     margin-left: 5%;
@@ -263,19 +254,12 @@ footer p {
     position: relative;
     top: -50px;
   }
-
+  
   .Frigideira{
     margin-bottom: 100px;
     margin-top: 70px;
   }
-
-  img{
-    width: 400px;
-    height: 280px;
-    border: 1px solid #000000; /* Define a espessura e a cor da borda */
-    border-radius: 3px; /* Define o raio dos cantos da borda (opcional) */
-  }
-
+  
   .TextoFrigideira{
     margin-left: 50%;
     margin-right: 5%;
@@ -289,39 +273,29 @@ footer p {
     position: relative;
     top: -240px;
   }
-
-  img{
-
-        width: 400px;
-        height: 280px;
-        border: 1px solid #000000; /* Define a espessura e a cor da borda */
-        border-radius: 3px; /* Define o raio dos cantos da borda (opcional) */
-  }
-
+  
   .TextoCaldeirao{
-    Position:relative;
+    Position: relative;
     top: -200px;
     margin-left:5%;
     margin-right: 45%;
   }
-
+  
   .Assadeira{
     position: relative;
     top: -70px;
   }
-
-  img{
-      width: 400px;
-      height: 280px;
-      border: 1px solid #000000; /* Define a espessura e a cor da borda */
-      border-radius: 3px; /* Define o raio dos cantos da borda (opcional) */
-  }
-
+  
   .TextoAssadeira{
     margin-left: 45%;
     position: relative;
     top: -320px;
     margin-left: 50%;
     margin-right: 5%;
-  }
+}
 
+#sobre-nos {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
