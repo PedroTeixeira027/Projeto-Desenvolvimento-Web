@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina Contato</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <div class="logo"><img class="logo" src="img/logo_nova.jpeg" alt="Logo"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="services.html">Produtos</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+            <div class="container">
+                <h1>Entre em Contato</h1>
+                <form action="/enviar-contato" method="post">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+           
+            <footer>
+            <p>Endereço: Rodovia Washington Luiz A 300 Mts do Km 252, S/N, Zona Rural, Ibaté/SP - CEP 14815-000</p>
+            <p>CNPJ: 30.469.789/0001-95</p>
+            <p>Email: lojaodafabricaaluminiopaulista@yahoo.com</p>
+            <p>Telefone: (16) 99991-7702</p>
+            <p>Copyright © Pedro Angelo Tellaroli Vargas / Pedro Henrique Teixeira da Silva / João Pedro Lemes Ferreira</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/seuusuario" target="_blank"><img src="img/icons/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/seuusuario" target="_blank"><img src="img/icons/instagram.png" alt="Instagram"></a>
+                <a href="https://wa.me/seunumerodetelefone" target="_blank"><img src="img/icons/whatsapp.png" alt="WhatsApp"></a>
+              </div>
+            </footer>
+    </body>
+</html>
