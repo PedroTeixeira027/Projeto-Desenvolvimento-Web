@@ -3,7 +3,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: Arial, sans-serif;
     background-color: #DBE1E0;
     margin: 0;
     padding: 0;
@@ -236,10 +235,12 @@ body {
   .TextoPanela h2{
     font-size: 22px;
     color: #BF9E39;
+    text-align: center;
   }
   .TextoPanela p{
     font-size: 18px;
     color: #BF9E39;
+    text-align: center;
   }
   .Cacarola{
     float: right;
@@ -250,7 +251,7 @@ body {
   }
   .TextoCacarola{
     font-family: Times New Roman;
-    margin-top: 260px;
+    margin-top: 300px;
     margin-left: 5%;
     margin-right: 45%;
     position: relative;
@@ -259,10 +260,12 @@ body {
   .TextoCacarola h2{
     font-size: 22px;
     color: #BF9E39;
+    text-align: center;
   }
   .TextoCacarola p{
     font-size: 18px;
     color: #BF9E39;
+    text-align: center;
   }
   .Frigideira{
     margin-bottom: 100px;
@@ -278,10 +281,12 @@ body {
   .TextoFrigideira h2{
     font-size: 22px;
     color: #BF9E39;
+    text-align: center;
   }
   .TextoFrigideira p{
     font-size: 18px;
     color: #BF9E39;
+    text-align: center;
   }
   .Caldeirao{
     float:right;
@@ -299,10 +304,12 @@ body {
   .TextoCaldeirao h2{
     font-size: 22px;
     color: #BF9E39;
+    text-align: center;
   }
   .TextoCaldeirao p{
     font-size: 18px;
     color: #BF9E39;
+    text-align: center;
   }
   .Assadeira{
     position: relative;
@@ -319,10 +326,12 @@ body {
   .TextoAssadeira h2{
     font-size: 22px;
     color: #BF9E39;
+    text-align: center;
   }
   .TextoAssadeira p{
     font-size: 18px;
     color: #BF9E39;
+    text-align: center;
   }
   .Conteudo {
     clear: both; 
@@ -330,12 +339,12 @@ body {
     top: -230px;
   }
   .Conteudo h2{
-    font-size: 22px;
+    font-size: 26px;
     color: #BF9E39;
     text-align: center;
   }
   .Conteudo p{
-    font-size: 18px;
+    font-size: 22px;
     color: #BF9E39;
     text-align: center;
   }
