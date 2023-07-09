@@ -9,99 +9,14 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-  }
-  /*Código sobre o texto a baixo do rodapé*/
-  #sobre-nos {
-    max-width: 1000px;
-    margin: auto;
-    text-align: center;
-  }
-  /* Esses codigos são para o contato */
-  .container {
-    max-width: 500px;
-    margin: 50px auto;
-    background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px #BF9E39;
-  }
-  
-  .container h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #BF9E39
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 10px;
-    color: #BF9E39
-  }
-  
-  input[type="email"],
-  input[type="tel"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    color: #BF9E39
-  }
-  
-  textarea {
-    height: 100px;
-  }
-  
-  input[type="submit"] {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #45a049;
-  } 
-  
-  .content {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f2f2f2;
-    padding: 20px;
-    max-width: 1000;
-    font-family: Times New Roman;
-  }
-  
-  .main-container {
-    background-color: #FCF3A0;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px #BF9E39;
-    max-width: 1000;
-  }
-  
+}
   /* Esses codigos são para o cabeçalho */
-  h2 {
-    text-align: center;
-  }
-  
-  p {
-    text-align: center;
-  }
-  
   .logo
   {
     image-rendering: auto;
     width: auto;
     height: auto;
   }
-  
   header {
     background-color: #3e51bc;
     padding: 20px;
@@ -113,39 +28,32 @@ body {
     border-bottom-width: 4px;
     font-family: Times New Roman;
   }
-  
   header .logo {
     width: 200px;
     height: 100px;
     image-rendering: auto;
   }
-  
   header ul {
     list-style-type: none;
     text-align: right;
     font-family: Times New Roman;
   }
-  
   header ul li {
     display: inline-block;
     margin-right: 60px;
   }
-  
   header ul li:last-child {
     margin-right: 0;
   }
-  
   header ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 25px;
     letter-spacing: 2px;
   }
-  
   nav {
     margin-right: 70px;
   }
-
   /*Estes códigos são do corpo da home page*/
   .content {
     flex-grow: 1;
@@ -167,118 +75,96 @@ body {
     padding: 5px;
     border-radius: 8px;
     box-shadow: 0 2px 4px #BF9E39;
-  }
-  
+  } 
   .main-container h2 {
     text-align: center;
     font-size: 40px;
     color: #BF9E39;
     margin-bottom: 20px;
   }
-  
   .main-container p {
     text-align: center;
     font-size: 24px;
     color: #BF9E39;
   }
-
   /* Esses codigos são para o carossel */
   .owl-carousel {
     position: relative;
     width: 100%;
   }
-  
   .owl-carousel .slide {
     position: relative;
     height: 300px;
     background-color: #DBE1E0;
     border-radius: 10px;
   }
-  
   .owl-carousel .slide img {
     width: 100%;
     height: 100%;
     object-fit: scale-down;
     border-radius: 10px;
   }
-
-
-   /*Código sobre o texto fim do corpo da home page*/
+  /*Código sobre o texto fim do corpo da home page*/
   .sobre-nos {
     max-width: 1000px;
     margin: auto;
-  }
-  
+  } 
   .sobre-nos h3 {
     text-align: center;
     font-size: 20px;
     color: #BF9E39;
     margin-bottom: 20px;
   }
-  
-  
   /* Esses codigos são para o rodapé */
   footer {
     background-color:#3E51BC;
     padding: 10px;
-    text-align: right;
+    text-align: center;
     font-size: 12px;
     color: #DBE1E0;
     border-top-style: solid ;
     border-top-color: #BF9E39;
     border-top-width: 4px;
   }
-  
   footer img{
     width: 10px;
     height: 25px;
   }
-  
-  
   footer p {
     margin: 5px 0;
   }
-  
   .social-icons {
     text-align: center;
     margin-top: 2px;
     margin-bottom: 10px;
-  }
-  
+  } 
   .social-icons a {
     display: inline-block;
     margin: 0 20px;
   }
-  
   .social-icons img {
     width: 30px;
+    height: 30px;
   }
-  
-  .Forms
-  {
-    padding: 20px; 
-    text-align: center;
-    max-width: 1000;
-  }
-  .TitleProducts
-  {
-    text-align: center;
-    background-color: #FCF3A0;
+  /* Esses codigos são para o contato */
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #f2f2f2;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px #BF9E39;
-  }
-  
+    box-shadow: 0 2px 5px #BF9E39;
+  }   
   .container h1 {
     text-align: center;
     margin-bottom: 20px;
-  }
-  
+    color: #BF9E39
+  }  
   label {
     display: block;
     margin-bottom: 10px;
-  }
-  
+    color: #BF9E39
+  }  
   input[type="email"],
   input[type="tel"],
   textarea {
@@ -288,12 +174,11 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 20px;
-  }
-  
+    color: #BF9E39
+  }  
   textarea {
     height: 100px;
-  }
-  
+  } 
   input[type="submit"] {
     background-color: #4CAF50;
     color: #fff;
@@ -302,11 +187,15 @@ body {
     border-radius: 4px;
     cursor: pointer;
   }
-  
   input[type="submit"]:hover {
     background-color: #45a049;
+  } 
+  #Forms
+  {
+    padding: 20px; 
+    text-align: center;
+    max-width: 1000;
   }
-  
   /*Todas as linhas de códigos abaixo são referentes 
   á página de Serviços*/
   .TitleProducts
@@ -320,7 +209,6 @@ body {
     max-width: 1000;
     color: #BF9E39;
   }
-
   .PanelaPressao {
     font-family: Times New Roman;
     float: left;
@@ -343,13 +231,15 @@ body {
     margin-left: 45%;
     margin-right: 5%;
     text-align: left;
-    clear: both; 
+    clear: both;  
+  }
+  .TextoPanela h2{
+    font-size: 22px;
     color: #BF9E39;
   }
-  .Conteudo {
-    clear: both; 
-    position: relative;
-    top: -230px;
+  .TextoPanela p{
+    font-size: 18px;
+    color: #BF9E39;
   }
   .Cacarola{
     float: right;
@@ -365,6 +255,13 @@ body {
     margin-right: 45%;
     position: relative;
     top: -50px;
+  }
+  .TextoCacarola h2{
+    font-size: 22px;
+    color: #BF9E39;
+  }
+  .TextoCacarola p{
+    font-size: 18px;
     color: #BF9E39;
   }
   .Frigideira{
@@ -377,6 +274,13 @@ body {
     margin-right: 5%;
     position: relative;
     top: -340px;
+  }
+  .TextoFrigideira h2{
+    font-size: 22px;
+    color: #BF9E39;
+  }
+  .TextoFrigideira p{
+    font-size: 18px;
     color: #BF9E39;
   }
   .Caldeirao{
@@ -391,6 +295,13 @@ body {
     top: -200px;
     margin-left:5%;
     margin-right: 45%;
+  }
+  .TextoCaldeirao h2{
+    font-size: 22px;
+    color: #BF9E39;
+  }
+  .TextoCaldeirao p{
+    font-size: 18px;
     color: #BF9E39;
   }
   .Assadeira{
@@ -404,12 +315,27 @@ body {
     top: -320px;
     margin-left: 50%;
     margin-right: 5%;
+  }
+  .TextoAssadeira h2{
+    font-size: 22px;
     color: #BF9E39;
-}
+  }
+  .TextoAssadeira p{
+    font-size: 18px;
+    color: #BF9E39;
+  }
   .Conteudo {
     clear: both; 
     position: relative;
     top: -230px;
-    color: #BF9E39;
   }
-
+  .Conteudo h2{
+    font-size: 22px;
+    color: #BF9E39;
+    text-align: center;
+  }
+  .Conteudo p{
+    font-size: 18px;
+    color: #BF9E39;
+    text-align: center;
+  }
