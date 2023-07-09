@@ -10,7 +10,12 @@ body {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
   }
-  
+  /*Código sobre o texto a baixo do rodapé*/
+  #sobre-nos {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
   /* Esses codigos são para o contato */
   .container {
     max-width: 500px;
@@ -207,38 +212,35 @@ body {
     object-fit: scale-down;
     border-radius: 10px;
   }
-  
+  /*Todas as linhas de códigos abaixo são referentes 
+  á página de Serviços*/
   .PanelaPressao {
     float: left;
     margin-right: 10px;
   }
-  
   .img-services {
     width: 400px;
     height: 280px;
-    border: 1px solid #000000; /* Define a espessura e a cor da borda */
-    border-radius: 3px; /* Define o raio dos cantos da borda (opcional) */
+    border: 1px solid #000000; 
+    border-radius: 3px; 
     margin-left: 5%;
   }
-  
   .TextoPanela 
   {
-    float: left; /* Faz o texto flutuar à esquerda */
+    float: left;
     margin-left: 2.5cm;
     position: relative;
-    top: -230px; /* Valor negativo para subir o texto */
+    top: -230px; 
     margin-left: 45%;
     margin-right: 5%;
     text-align: left;
-    clear: both; /* Define que a div "Conteudo" não deve ficar ao lado das floats */
+    clear: both; 
   }
-  
   .Conteudo {
-    clear: both; /* Define que a div "Conteudo" não deve ficar ao lado das floats */
+    clear: both; 
     position: relative;
     top: -230px;
   }
-  
   .Cacarola{
     float: right;
     margin-right: 10px;
@@ -246,7 +248,6 @@ body {
     top: -120px;
     margin-right: 5%;
   }
-  
   .TextoCacarola{
     margin-top: 260px;
     margin-left: 5%;
@@ -254,38 +255,32 @@ body {
     position: relative;
     top: -50px;
   }
-  
   .Frigideira{
     margin-bottom: 100px;
     margin-top: 70px;
   }
-  
   .TextoFrigideira{
     margin-left: 50%;
     margin-right: 5%;
     position: relative;
     top: -340px;
   }
-  
   .Caldeirao{
     float:right;
     margin-right: 5%;
     position: relative;
     top: -240px;
   }
-  
   .TextoCaldeirao{
     Position: relative;
     top: -200px;
     margin-left:5%;
     margin-right: 45%;
   }
-  
   .Assadeira{
     position: relative;
     top: -70px;
   }
-  
   .TextoAssadeira{
     margin-left: 45%;
     position: relative;
@@ -293,9 +288,3 @@ body {
     margin-left: 50%;
     margin-right: 5%;
 }
-
-#sobre-nos {
-    max-width: 1000px;
-    margin: auto;
-    text-align: center;
-  }
