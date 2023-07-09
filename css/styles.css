@@ -2,16 +2,103 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 80vh;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
     background-color: #DBE1E0;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
   }
+  /*Código sobre o texto a baixo do rodapé*/
+  #sobre-nos {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  /* Esses codigos são para o contato */
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #FCF3A0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #BF9E39;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  } 
+  
+  .content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 1000;
+    font-family: Times New Roman;
+  }
+  
+  .main-container {
+    background-color: #FCF3A0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #BF9E39;
+    max-width: 1000;
+  }
   
   /* Esses codigos são para o cabeçalho */
- 
+  h2 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  .logo
+  {
+    image-rendering: auto;
+    width: auto;
+    height: auto;
+  }
+  
   header {
     background-color: #3e51bc;
     padding: 20px;
@@ -21,6 +108,7 @@ body {
     border-bottom-style: solid;
     border-bottom-color: #BF9E39;
     border-bottom-width: 4px;
+    font-family: Times New Roman;
   }
   
   header .logo {
@@ -32,6 +120,7 @@ body {
   header ul {
     list-style-type: none;
     text-align: right;
+    font-family: Times New Roman;
   }
   
   header ul li {
@@ -129,7 +218,7 @@ body {
   footer {
     background-color:#3E51BC;
     padding: 10px;
-    text-align: center;
+    text-align: right;
     font-size: 12px;
     color: #DBE1E0;
     border-top-style: solid ;
@@ -168,12 +257,10 @@ body {
     text-align: center;
     max-width: 1000;
   }
-  
-  /* Esses codigos são para o contato */
-  .container {
-    max-width: 500px;
-    margin: 50px auto;
-    background-color: #DBE1E0;
+  .TitleProducts
+  {
+    text-align: center;
+    background-color: #FCF3A0;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px #BF9E39;
@@ -232,6 +319,7 @@ body {
   }
 
   .PanelaPressao {
+    font-family: Times New Roman;
     float: left;
     margin-right: 10px;
   }
@@ -245,6 +333,7 @@ body {
   .TextoPanela 
   {
     float: left;
+    font-family: Times New Roman;
     margin-left: 2.5cm;
     position: relative;
     top: -230px; 
@@ -254,7 +343,11 @@ body {
     clear: both; 
     color: #BF9E39;
   }
-  
+  .Conteudo {
+    clear: both; 
+    position: relative;
+    top: -230px;
+  }
   .Cacarola{
     float: right;
     margin-right: 10px;
@@ -263,6 +356,7 @@ body {
     margin-right: 5%;
   }
   .TextoCacarola{
+    font-family: Times New Roman;
     margin-top: 260px;
     margin-left: 5%;
     margin-right: 45%;
@@ -275,6 +369,7 @@ body {
     margin-top: 70px;
   }
   .TextoFrigideira{
+    font-family: Times New Roman;
     margin-left: 50%;
     margin-right: 5%;
     position: relative;
@@ -289,6 +384,7 @@ body {
   }
   .TextoCaldeirao{
     Position: relative;
+    font-family: Times New Roman;
     top: -200px;
     margin-left:5%;
     margin-right: 45%;
@@ -299,6 +395,7 @@ body {
     top: -70px;
   }
   .TextoAssadeira{
+    font-family: Times New Roman;
     margin-left: 45%;
     position: relative;
     top: -320px;
